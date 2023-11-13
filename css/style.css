@@ -127,6 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
@@ -152,12 +158,22 @@ img {
         margin-bottom: 3em;
     }
 
+    .steps {
+        margin-bottom: 0;
+    }
+
     .steps .col {
         width: 100%;
     }
 
     .steps .col:not(:last-child) {
         margin-bottom: 3em;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-top: 3em;
     }
 
     .why-us .col {
